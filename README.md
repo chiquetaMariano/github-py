@@ -1,6 +1,6 @@
 # Utilities
 
-some useful script and tools I developed
+some useful scripts and tools I developed
 
 ## Tools
 
