@@ -10,5 +10,3 @@ def build_url(req_url):
 	path = parameters[-1]
 
 	return 'https://api.github.com/repos/' + author + '/'+ repo +'/contents/' + path
-
-# print(build_url('https://github.com/trenton3983/Programming_Computer_Vision_with_Python/tree/master/PCV'))
