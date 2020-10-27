@@ -1,6 +1,6 @@
 import urllib.parse as urlParser
 
-def url_builder(req_url):
+def build_url(req_url):
 	url = urlParser.urlparse(req_url)
 
 	parameters = url.path.split('/')
@@ -11,4 +11,4 @@ def url_builder(req_url):
 
 	return 'https://api.github.com/repos/' + author + '/'+ repo +'/contents/' + path
 
-# print(url_builder('https://github.com/trenton3983/Programming_Computer_Vision_with_Python/tree/master/PCV'))
+# print(build_url('https://github.com/trenton3983/Programming_Computer_Vision_with_Python/tree/master/PCV'))
